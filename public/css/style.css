@@ -1,0 +1,12 @@
+* {
+    font-family: "Poppins", sans-serif;
+    font-size: 11pt;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+    background-color: rgb(32, 150, 24) !important;
+    border-color: rgb(32, 150, 24) !important;
+}
