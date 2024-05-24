@@ -25,8 +25,9 @@
     </div>
 </div>
 
-<div class="d-flex justify-content-end mb-3">
+<div class="d-flex justify-content-start mb-3">
     <a href="#" class="btn btn-primary">ADD SUPPLY</a>
+    <a href="#" class="btn btn-primary ms-1">PRINT SUPPLY</a>
 </div>
 
 <div class="table-responsive shadow-sm">
@@ -42,6 +43,8 @@
                 <th scope="col">RECEIVING UNIT QUANTITY</th>
                 <th scope="col">UNIT COST</th>
                 <th scope="col">TOTAL COST</th>
+                <th scope="col">DATE CREATED</th>
+                <th scope="col">DATE UPDATED</th>
             </tr>
         </thead>
         <tbody>
