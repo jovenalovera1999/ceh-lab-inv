@@ -6,7 +6,9 @@
 
 @include('include.sidebar')
 
-<div class="row mt-2">
+<h3 class="mt-2 mb-3">ADD USER</h3>
+
+<div class="row">
     <div class="col">
         <div class="mb-3">
             <label for="first_name">FIRST NAME</label>
@@ -26,12 +28,20 @@
                 <option value="" selected>N/A</option>
             </select>
         </div>
-    </div>
-    <div class="col">
         <div class="mb-3">
             <label for="birth_date">BIRTH DATE</label>
             <input type="date" class="form-control" name="birth_date" id="birth_date" value="{{ old('birth_date') }}" />
         </div>
+        <div class="mb-3">
+            <label for="address">ADDRESS</label>
+            <input type="text" class="form-control" name="address" id="address" value="{{ old('address') }}" />
+        </div>
+        <div class="mb-3">
+            <label for="contact_number">CONTACT NUMBER</label>
+            <input type="text" class="form-control" name="contact_number" id="contact_number" value="{{ old('contact_number') }}" />
+        </div>
+    </div>
+    <div class="col">
         <div class="mb-3">
             <label for="gender">GENDER</label>
             <select class="form-select" name="gender" id="gender">
@@ -39,9 +49,32 @@
             </select>
         </div>
         <div class="mb-3">
-            <label for="birth_date">BIRTH DATE</label>
-            <input type="text" class="form-control" name="birth_date" id="birth_date" value="{{ old('birth_date') }}" />
+            <label for="email">EMAIL</label>
+            <input type="text" class="form-control" name="email" id="email" value="{{ old('email') }}" />
         </div>
+        <div class="mb-3">
+            <label for="username">USERNAME</label>
+            <input type="text" class="form-control" name="username" id="username" value="{{ old('username') }}" />
+        </div>
+        <div class="mb-3">
+            <label for="password">PASSWORD</label>
+            <input type="password" class="form-control" name="password" id="password" value="{{ old('password') }}" />
+        </div>
+        <div class="mb-3">
+            <label for="password_confirmation">CONFIRM PASSWORD</label>
+            <input type="password" class="form-control" name="password_confirmation" id="password_confirmation" value="{{ old('password_confirmation') }}" />
+        </div>
+        <div class="mb-3">
+            <label for="position">POSITION</label>
+            <select class="form-select" name="position" id="position">
+                <option value="" selected>N/A</option>
+            </select>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-end mb-3">
+        <a href="#" class="btn btn-primary me-1">BACK</a>
+        <button type="submit" class="btn btn-primary">SAVE USER</button>
     </div>
 </div>
 

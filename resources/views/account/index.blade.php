@@ -39,7 +39,6 @@
                 <th scope="col">GENDER</th>
                 <th scope="col">ADDRESS</th>
                 <th scope="col">CONTACT NUMBER</th>
-                <th scope="col">TELEPHONE NUMBER</th>
                 <th scope="col">EMAIL</th>
                 <th scope="col">POSITION</th>
                 <th scope="col">ACTION</th>
