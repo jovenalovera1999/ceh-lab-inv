@@ -10,3 +10,8 @@
     background-color: rgb(32, 150, 24) !important;
     border-color: rgb(32, 150, 24) !important;
 }
+
+.custom-card-color {
+    background-color: rgb(32, 150, 24);
+    color: #fff;
+}
