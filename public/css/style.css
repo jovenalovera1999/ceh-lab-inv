@@ -4,11 +4,16 @@
 }
 
 .btn-primary,
-.btn-primary:hover,
 .btn-primary:active,
 .btn-primary:visited {
+    background: linear-gradient(#0000, rgb(0 0 0 / 40%)) top / 100% 800%;
     background-color: rgb(32, 150, 24) !important;
     border-color: rgb(32, 150, 24) !important;
+    transition: 0.2s;
+}
+
+.btn-primary:hover {
+    background-position: bottom;
 }
 
 input[type="text"]:focus,
